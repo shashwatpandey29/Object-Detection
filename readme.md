@@ -17,8 +17,7 @@ This project involves using an ESP32-CAM and YOLOv3 for real-time object detecti
 
 1. **Clone the Repository**:
     ```bash
-    git clone https://github.com/your-username/esp32-object-detection.git
-    cd esp32-object-detection
+    git clone https://github.com/shashwatpandey29/Object-Detection.git
     ```
 
 2. **Download YOLOv3 Weights and Config Files**:
@@ -37,5 +36,5 @@ This project involves using an ESP32-CAM and YOLOv3 for real-time object detecti
    - Open `main.py` and update the `url` variable with the IP address of your ESP32-CAM.
 
    ```python
-   url = 'http://192.168.98.8/cam-hi.jpg'
+   url = 'Your_Url/cam-hi.jpg'
 
