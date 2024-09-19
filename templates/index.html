@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ESP32-CAM Dashboard</title>
+</head>
+<body>
+    <h1>Live Camera Feed</h1>
+    <img src="{{ url_for('video_feed') }}" width="640" height="480">
+    <h2>Analytics</h2>
+    <a href="/analytics">View Analytics</a>
+</body>
+</html>
